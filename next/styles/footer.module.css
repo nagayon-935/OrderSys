@@ -1,0 +1,12 @@
+.wrapper {
+    margin-top: 20px;
+    padding: var(--space-xl) 0;
+    background-color: var(--gray-10);
+    position: sticky;
+    top: 100vh;
+}
+
+.flexContainer {
+    composes: sideBySideCenter from 'styles/utils.module.css';
+    gap: 2em;
+}

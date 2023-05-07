@@ -1,0 +1,15 @@
+.text{
+    font-size: var(--heading2);
+}
+
+/* @media (min-width:375px) and (max-width:870px){
+    .box{
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:390px){
+    .box{
+        display: block;
+    }
+} */

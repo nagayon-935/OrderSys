@@ -1,0 +1,14 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    padding: auto;
+    margin: auto;
+}
+
+@media (max-width:1024px){
+    .flexContainer{
+        max-width: 900px;
+        flex-direction: row;
+    }
+}

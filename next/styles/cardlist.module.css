@@ -1,0 +1,25 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (min-width:375px) and (max-width:768px){
+    .flexContainer{
+        max-width: 768px;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width:768px) {
+    .flexContainer {
+        max-width: 1152px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}

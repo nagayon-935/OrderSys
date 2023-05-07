@@ -1,0 +1,25 @@
+.button{
+    font-family: "游明朝体";
+    font-weight: 800;
+    border-radius: 30px;
+    margin-right: calc(var(--small-heading3)*1.1);
+    margin-top: calc(var(--small-heading3)*0.8);
+    margin-bottom: calc(var(--small-heading3)*1.5);
+}
+
+/* @media (min-width:871px) and (max-width:1082px){
+    .button{
+        font-size: calc(var(--small-heading3)*0.9);
+        width: calc(var(--small-heading3)*9.2);
+        height: calc(var(--small-heading3)*2.5);
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:870px){
+    .button{
+        font-size: calc(var(--small-heading3)*1.2);
+        width: calc(var(--small-heading3)*12.3);
+        margin-right: calc(var(--small-heading3)*0.8);
+    }
+} */

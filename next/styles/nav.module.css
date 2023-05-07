@@ -1,0 +1,32 @@
+.list{
+    display: flex;
+    gap: 1em;
+}
+
+@media (hover: hover){
+    .list a:hover{
+        color: var(--accent);
+    }
+}
+
+@media(hover: none){
+    .list a{
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .list a:active{
+        color: var(--accent);
+    }
+}
+
+
+/* .text{
+    color: var(--black);
+    font-size: var(--small-heading3);
+}
+
+
+.none{
+    composes: text;
+    color: #ffffff;
+} */

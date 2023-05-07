@@ -1,0 +1,14 @@
+.button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: calc(var(--small-heading3)*0.8);
+    margin-top: calc(var(--small-heading3)*0.8);
+    margin-bottom: calc(var(--small-heading3)*0.8);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.closeButton{
+    font-size: large;
+}
